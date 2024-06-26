@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/liuyifan22/3doors.git/static/css/main.1a5ad953.css",
-    "main.js": "/liuyifan22/3doors.git/static/js/main.fe3212fa.js",
+    "main.js": "/liuyifan22/3doors.git/static/js/main.bfda22fa.js",
     "index.html": "/liuyifan22/3doors.git/index.html",
     "main.1a5ad953.css.map": "/liuyifan22/3doors.git/static/css/main.1a5ad953.css.map",
-    "main.fe3212fa.js.map": "/liuyifan22/3doors.git/static/js/main.fe3212fa.js.map"
+    "main.bfda22fa.js.map": "/liuyifan22/3doors.git/static/js/main.bfda22fa.js.map"
   },
   "entrypoints": [
     "static/css/main.1a5ad953.css",
-    "static/js/main.fe3212fa.js"
+    "static/js/main.bfda22fa.js"
   ]
 }
