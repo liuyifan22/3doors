@@ -5,6 +5,7 @@
 body {
     font-family: sans-serif;
     padding: 20px;
+    border-bottom: 1.6rem solid #0086a9;
 }
 
 .flashcards {
@@ -17,7 +18,8 @@ body {
     border: 1px solid #e7e7e7;
     background-color: #f7f7f7;
     border-radius: 7px;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 1/2;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,9 +28,94 @@ body {
     cursor: pointer;
 }
 
+.flashcards-container {
+    max-width: 780px; /* Example maximum width */
+    margin: 0 auto; /* Centers the div horizontally */
+    display: block;
+}
+
+.notice {
+    background-color: #b5f7f7;
+    border-radius: 7px;
+    max-width: 780px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Your existing .flashcards and .flashcards div styles remain unchanged */
+
 div.selected {
-    border: 1px solid #facaca;
-    background-color: #facaca;
-    color: #fff;
+    border: 10px solid #014b7949;
+    background-image: url("../public/weiyanglogo.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     font-weight: bold;
+}
+
+div.bigPrize {
+    border: 20px solid #ffd700;
+    background-image: url("../public/big.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+div.openBigPrize {
+    background-image: url("../public/big.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+div.normalPrize {
+    border: 20px solid #0e904d;
+    background-image: url("../public/small.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+div.openNormalPrize {
+    background-image: url("../public/small.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+div.notSelected {
+    background-image: url("../public/weiyanglogo.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.centered_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.btn {
+    color: #ffffff;
+    font-family: inherit;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: #0086a9;
+    padding: 1rem 3.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: #66cccc;
+}
+
+.footer {
+    position: relative;
 }
