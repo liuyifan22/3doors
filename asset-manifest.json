@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/3doors/static/css/main.28990f1a.css",
-    "main.js": "/3doors/static/js/main.bffb9edc.js",
+    "main.css": "/3doors/static/css/main.bb8c4747.css",
+    "main.js": "/3doors/static/js/main.06e0233f.js",
     "static/media/big.png": "/3doors/static/media/big.dabb1c209db2c9f628e7.png",
     "static/media/small.png": "/3doors/static/media/small.09c81bb250e298466c85.png",
     "static/media/weiyanglogo.png": "/3doors/static/media/weiyanglogo.ca0b0bd67ccb32f8936e.png",
     "index.html": "/3doors/index.html",
-    "main.28990f1a.css.map": "/3doors/static/css/main.28990f1a.css.map",
-    "main.bffb9edc.js.map": "/3doors/static/js/main.bffb9edc.js.map"
+    "main.bb8c4747.css.map": "/3doors/static/css/main.bb8c4747.css.map",
+    "main.06e0233f.js.map": "/3doors/static/js/main.06e0233f.js.map"
   },
   "entrypoints": [
-    "static/css/main.28990f1a.css",
-    "static/js/main.bffb9edc.js"
+    "static/css/main.bb8c4747.css",
+    "static/js/main.06e0233f.js"
   ]
 }
