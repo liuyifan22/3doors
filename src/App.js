@@ -37,6 +37,7 @@ function App() {
             <ControllerButton
                 firstChoice={firstChoice}
                 finalChoice={finalChoice}
+                selectedId={selectedId}
                 setfinalChoice={setfinalChoice}
                 setfirstChoice={setfirstChoice}
             />
@@ -191,9 +192,11 @@ function ControllerButton({
     finalChoice,
     setfirstChoice,
     setfinalChoice,
+    selectedId,
 }) {
-    function ControlProgress(firstChoice) {
-        firstChoice ? setfinalChoice(true) : setfirstChoice(true);
+    function ControlProgress(firstChoice, selectedId) {
+        if (selectedId != null)
+            firstChoice ? setfinalChoice(true) : setfirstChoice(true);
     }
     return finalChoice ? (
         <div />
@@ -201,7 +204,7 @@ function ControllerButton({
         <div className="centered_button">
             <button
                 class="btn"
-                onClick={() => ControlProgress(firstChoice, finalChoice)}>
+                onClick={() => ControlProgress(firstChoice, selectedId)}>
                 {firstChoice ? "最终选择" : "首次选择"}
             </button>
         </div>
@@ -218,14 +221,7 @@ function Footer() {
                 <b>If you've got good ideas about this, Email me@:</b>{" "}
                 liuyifan22@mails.tsinghua.edu.cn
             </p>
-            <p>
-                思路：{" "}
-                <a
-                    href="https://mp.weixin.qq.com/s?__biz=MzI5MzY0MjU0OQ==&mid=2247483654&idx=1&sn=7a77ee6ae2492cfe74ccf5587b2f05d0&chksm=ec6e495cdb19c04a77c42b60e35f3b105b060b5160f4fbbad07a09c5197d0f3c7bd71e2a9334&scene=21#wechat_redirec"
-                    target="blank">
-                    中小学百科知识-公众号
-                </a>
-            </p>
+            <p>向邮箱发送你的金点子，有机会出现在未央科协官方网站！</p>
             <p>Skills from Jonas Ultimate React.</p>
         </footer>
     );

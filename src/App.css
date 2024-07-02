@@ -29,7 +29,7 @@ body {
 }
 
 .flashcards-container {
-    max-width: 780px; /* Example maximum width */
+    max-width: 900px; /* Example maximum width */
     margin: 0 auto; /* Centers the div horizontally */
     display: block;
 }
@@ -37,9 +37,9 @@ body {
 .notice {
     background-color: #b5f7f7;
     border-radius: 7px;
-    max-width: 780px;
+    max-width: 900px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Your existing .flashcards and .flashcards div styles remain unchanged */
